@@ -5,3 +5,5 @@ package-lock.json
 
 anotacoes.odt
 .~lock.anotacoes.odt#
+
+__pycache__/
