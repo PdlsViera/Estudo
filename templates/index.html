@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Processador de Imagem</title>
+</head>
+<body>
+    <h2>Bem-vindo ao Processador de Imagens</h2>
+
+    <form action="/processar" method="post" enctype="multipart/form-data">
+        <label for="imagem">Escolha uma imagem:</label>
+        <input type="file" name="imagem" accept="image/*" required><br><br>
+
+        <!-- Botões diferentes com o mesmo formulário -->
+        <button type="submit" name="acao" value="visualizar">Visualizar</button>
+        <button type="submit" name="acao" value="baixar">Baixar</button>
+    </form>
+
+    <br>
+    <a href="/logout">Sair</a>
+</body>
+</html>
